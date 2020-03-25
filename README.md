@@ -1,5 +1,5 @@
 # PowerHash
-Module to hash (checksum) files and Bytearrays  to compare files check integrity and find duplicates
+Module to hash (checksum) files and Bytearrays  to compare files, check integrity and find duplicates
 
 This is currently in beta / Testing stage!
 
