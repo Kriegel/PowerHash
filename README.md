@@ -17,6 +17,7 @@ Most importantly that it's hard to find collisions or pre-images and that the ou
 (There are a few more properties, and "hard" has well defined bounds in this context, but that's not important here.)
 Non cryptographic hash functions just try to avoid collisions for non malicious input.
 Some aim to detect accidental changes in data (CRCs), others try to put objects into different buckets in a hash table with as few collisions as possible.
+
 In exchange for weaker guarantees they are typically (much) faster.
         
 See also: https://dadario.com.br/cryptographic-and-non-cryptographic-hash-functions/
