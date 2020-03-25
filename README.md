@@ -9,3 +9,14 @@ https://github.com/brandondahler/Data.HashFunction
 
 I recommend to use xxHash (32 or 64) for VERY Fast checksums
 https://github.com/Cyan4973/xxHash
+
+## Cryptographic and Non-Cryptographic Hash Functions
+       
+A cryptographic hash function aims to guarantee a number of security properties.
+Most importantly that it's hard to find collisions or pre-images and that the output appears random.
+(There are a few more properties, and "hard" has well defined bounds in this context, but that's not important here.)
+Non cryptographic hash functions just try to avoid collisions for non malicious input.
+Some aim to detect accidental changes in data (CRCs), others try to put objects into different buckets in a hash table with as few collisions as possible.
+In exchange for weaker guarantees they are typically (much) faster.
+        
+See also: https://dadario.com.br/cryptographic-and-non-cryptographic-hash-functions/
